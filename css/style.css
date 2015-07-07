@@ -4,22 +4,17 @@
 }
 
 
-<<<<<<< HEAD
 .entry, ul.img-list, ul.team2{
-=======
+
 ul.img-list, ul.team2{
->>>>>>> 4373fbaa3fa2a9e65397cfae628cfb33e5202a4b
   list-style-type: none;
   margin: 0;
   padding: 10px 10px 10px 10px;
   text-align: left;
 }
 
-<<<<<<< HEAD
 .entry, ul.img-list li{
-=======
 ul.img-list li{
->>>>>>> 4373fbaa3fa2a9e65397cfae628cfb33e5202a4b
   display: inline-block;
   height: 270px;
   overflow: hidden;
@@ -74,19 +69,16 @@ p{
   width: 100px;
   transform-style: preserve-3d;
   position: absolute;
-<<<<<<< HEAD
   transition: all 0.9s ease-out;
   -webkit-transition: all 0.9s ease-out;
    backface-visibility: hidden;
    transform: rotateY(0deg);
    background-color: white;
    border: 1px solid red;
-=======
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
    backface-visibility: hidden;
    transform: rotateY(0deg);
->>>>>>> 4373fbaa3fa2a9e65397cfae628cfb33e5202a4b
 }
 
 .back{
@@ -95,12 +87,9 @@ p{
   width: 100px;
   transform-style: preserve-3d;
   position: absolute;
-<<<<<<< HEAD
   transition: all 0.9s ease-out;
   -webkit-transition: all 0.9s ease-out;
-=======
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
->>>>>>> 4373fbaa3fa2a9e65397cfae628cfb33e5202a4b
   backface-visibility: hidden;"
 }
