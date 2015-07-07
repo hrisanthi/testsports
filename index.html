@@ -1,0 +1,382 @@
+<html lang="en">
+<head>
+  <title>Soccer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--css-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+    <div id="content"></div>
+    <script id="sports-template" type="text/x-handlebars-template">
+      <div class="entry">
+          <ul class="img-list">
+    <li><div class="flip-container">
+<div class="front"><img src="img/king.png"></div>
+<div class="back">
+        <h2>{{Name}}</h2>
+        <p>SCHOOL: {{Place}}</p>
+        <p>POSITION: {{Position}}</p>
+        <p>YEAR: {{Year}}</p>
+        <p>{{Comments}}</p>
+</div></div></li>
+  </ul>
+  </div>
+    </script>
+</div>
+
+ <!-- <div class="container">
+
+  <ul class="img-list">
+
+    <li><div class="flip-container">
+		<div class="front">
+			<img src="img/king.png">
+		</div>
+		<div class="back">
+	<h2><strong>KRISTIE KING</strong></h2>
+      <p><strong>SCHOOL:</strong> Terry Sanford</p>
+      <p><strong>POSITION:</strong> Midfield</p>
+      <p><strong>YEAR:</strong> Senior</p>
+      <p>Headed to Meredith.</p>
+      <p>Lead Cumberland County public school players in goals with 20.</p>
+      <p>All-Mid_South 4-A Conference.</p>
+	</div>
+</div></li>
+
+<li><div class="flip-container">
+<div class="front">
+  <img src="img/Hinson.png">
+</div>
+<div class="back">
+  <h2>Madison Hinson</h2>
+  <p><strong>SCHOOL:</strong> Whiteville</p>
+  <p><strong>POSITION:</strong> Midfield</p>
+  <p><strong>YEAR:</strong> Junior</p>
+  <p>Scored 35 goals and added 26 assists</p>
+  <p>Helped lead Whiteville to 1-A Eastern finals</p>
+</div>
+</div></li>
+
+
+<li><div class="flip-container">
+<div class="front">
+  <img src="img/Locklear.png">
+</div>
+<div class="back">
+  <h2>Chloe Locklear</h2>
+  <p><strong>SCHOOL:</strong> Lumberton</p>
+  <p><strong>POSITION:</strong> Midfield</p>
+  <p><strong>YEAR:</strong> Senior</p>
+  <p>Will join King at Meredith.</p>
+  <p>Four-year varsity player.</p>
+  <p>All-Southeaster 4-A Conference.</p>
+</div>
+</div></li>
+
+
+<li><div class="flip-container">
+<div class="front">
+  <img src="img/Shelley.png">
+</div>
+<div class="back">
+  <h2>Mia Shelley</h2>
+  <p><strong>SCHOOL:</strong> Whiteville</p>
+  <p><strong>POSITION:</strong> Forward</p>
+  <p><strong>YEAR:</strong> Junior</p>
+  <p>Lead conferenc in both goals and assists.</p>
+  <p>Had 46 goals for the season and 23 assists.</p>
+</div>
+</div></li>
+
+
+<li><div class="flip-container">
+<div class="front">
+  <img src="img/Birch.png">
+</div>
+<div class="back">
+  <h2>MacLaine Birch</h2>
+  <p><strong>SCHOOL:</strong> Terry Sanford</p>
+  <p><strong>POSITION:</strong> Keeper</p>
+  <p><strong>YEAR:</strong> Sophomore</p>
+  <p>Had 49 saves an allowed three goals in the regular season.</p>
+  <p>Recorded two shutouts and allowed four goals in state 3-A playoffs.</p>
+</div>
+</div></li>
+
+
+<li><div class="flip-container">
+<div class="front">
+  <img src="img/Jordan.png">
+</div>
+<div class="back">
+  <h2>Jade Jordan</h2>
+  <p><strong>SCHOOL:</strong> Pine Forest</p>
+  <p><strong>POSITION:</strong> Forward</p>
+  <p><strong>YEAR:</strong> Sophomore</p>
+  <p>Second-leading goal scorer in counr among public school players with 18.<p>
+  <p>Also had six assists.</p>
+  <p>All-Mid-South Conference</p>
+</div>
+</div></li>
+
+
+<li><div class="flip-container" >
+<div class="front">
+  <img src="img/Drake.png">
+</div>
+<div class="back">
+  <h2>MAGGIE DRAKE</h2>
+  <p><strong>SCHOOL:</strong> Cape Fear</p>
+  <p><strong>POSITION:</strong> Forward</p>
+  <p><strong>YEAR:</strong> Senior</p>
+  <p>Lead team in goals, 12, and assists, eight.</p>
+  <p>Lead Cumberland County public school players in goals with 20.</p>
+  <p>All-Mid_South 4-A Conference.</p>
+</div>
+</div></li>
+
+
+<li><div class="flip-container" >
+<div class="front">
+  <img src="img/Gonzalez.png">
+</div>
+<div class="back">
+  <h2>Sierra Gonzalez</h2>
+  <p><strong>SCHOOL:</strong> Union Pines</p>
+  <p><strong>POSITION:</strong> Midfield</p>
+  <p><strong>YEAR:</strong> Sophomore</p>
+  <p>Led Vikings with 21 goals.</p>
+  <p>Sparked team to Cape Fear Valley 3-A regular-season title.</p>
+</div>
+</div></li>
+
+
+<li><div class="flip-container" >
+<div class="front">
+  <img src="img/Hipp.png">
+</div>
+<div class="back">
+  <h2>Natalie Hipp</h2>
+  <p><strong>SCHOOL:</strong> Pinecrest</p>
+  <p><strong>POSITION:</strong> Defender</p>
+  <p><strong>YEAR:</strong> Senior</p>
+  <p>All-Southeastern Conference choice.</p>
+  <p>Scored three goals for the Patriots.</p>
+</div>
+</div></li>
+
+<li><div class="flip-container" >
+<div class="front">
+  <img src="img/Verchick.png">
+</div>
+<div class="back">
+  <h2>Abby Verchick</h2>
+  <p><strong>SCHOOL:</strong> Union Pines</p>
+  <p><strong>POSITION:</strong> Defender</p>
+  <p><strong>YEAR:</strong> Senior</p>
+  <p>Top defender in Cape Fear Valley 3-A.</p>
+  <p>Scored two goals with five assists.</p>
+</div>
+</div></li>
+
+<li><div class="flip-container" >
+<div class="front">
+  <img src="img/Keener.png">
+</div>
+<div class="back">
+  <h2>Jesse Keener</h2>
+  <p><strong>SCHOOL:</strong> Fayetteville Academy</p>
+  <p><strong>POSITION:</strong> Defender</p>
+  <p><strong>YEAR:</strong> Senior</p>
+  <p>Morehead scholar.</p>
+  <p>Selected all-conference and all-state.</p>
+  <p>Six goals for the season.</p>
+</div>
+</div></li>
+
+<li><div class="flip-container">
+<div class="front">
+  <img src="img/Post.png">
+</div>
+<div class="back">
+  <h2>Kelly Post</h2>
+  <p><strong>SCHOOL:</strong> Village Christian</p>
+  <p><strong>POSITION:</strong> Forward</p>
+  <p><strong>YEAR:</strong> Junior</p>
+  <p>NCISAA All-State.</p>
+  <p>Scored 31 goals for the season and finished with 66 points.</p>
+</div>
+</div></li>
+
+<li><div class="flip-container" >
+<div class="front">
+  <img src="img/Creech.png">
+</div>
+<div class="back">
+  <h2>Callie Creech</h2>
+  <p><strong>SCHOOL:</strong> Jack Britt</p>
+  <p><strong>POSITION:</strong> Midfield</p>
+  <p><strong>YEAR:</strong> Freshman</p>
+  <p>Mid-South 4-A Player of the Year.</p>
+  <p>Scored 18 goals and finished with 41 points.</p>
+</div>
+</div></li>
+
+
+
+  </ul>
+
+
+  <ul class="team2">
+    <H1>Second Team</H1>
+
+    <li><div class="other">
+  <h4>Abigail Owens</h4>
+  <p><strong>SCHOOL:</strong> Whiteville</p>
+  <p><strong>POSITION:</strong> Midfield</p>
+  <p><strong>YEAR:</strong> Junior</p>
+</div></li>
+
+<li><div class="other">
+  <h4>Stephanie Arnold</h4>
+  <p><strong>SCHOOL:</strong> Terry Sanford</p>
+  <p><strong>POSITION:</strong> Defender</p>
+  <p><strong>YEAR:</strong> Senior</p>
+</div></li>
+
+<li><div class="other">
+  <h4>Cassie Sturtz</h4>
+  <p><strong>SCHOOL:</strong> Pine Forest</p>
+  <p><strong>POSITION:</strong> Keeper</p>
+  <p><strong>YEAR:</strong> Sophomore</p>
+</div></li>
+
+<li><div class="other">
+  <h4>Gabby Serpa</h4>
+  <p><strong>SCHOOL:</strong> Gray's Creek</p>
+  <p><strong>POSITION:</strong> Midfield</p>
+  <p><strong>YEAR:</strong> Senior</p>
+</div></li>
+
+<li><div class="other">
+  <h4>Alexa Coble</h4>
+  <p><strong>SCHOOL:</strong> Union Pines</p>
+  <p><strong>POSITION:</strong> Striker</p>
+  <p><strong>YEAR:</strong> Junior</p>
+</div></li>
+
+<li><div class="other">
+  <h4>Grace Ann Longfellow</h4>
+  <p><strong>SCHOOL:</strong> Pinecrest</p>
+  <p><strong>POSITION:</strong> Midfield</p>
+  <p><strong>YEAR:</strong> Junior</p>
+</div></li>
+
+<li><div class="other">
+  <h4>Kendall Blaine</h4>
+  <p><strong>SCHOOL:</strong> Lumberton</p>
+  <p><strong>POSITION:</strong> Midfield</p>
+  <p><strong>YEAR:</strong> Junior</p>
+</div></li>
+
+<li><div class="other">
+  <h4>Ashlee Moore</h4>
+  <p><strong>SCHOOL:</strong> Pine Forest</p>
+  <p><strong>POSITION:</strong> Sweeper</p>
+  <p><strong>YEAR:</strong> Senior</p>
+</div></li>
+
+<li><div class="other">
+  <h4>Cathy Brown</h4>
+  <p><strong>SCHOOL:</strong> Cape Fear</p>
+  <p><strong>POSITION:</strong> Forward</p>
+  <p><strong>YEAR:</strong> Senior</p>
+</div></li>
+
+<li><div class="other">
+  <h4>Maritza Santos</h4>
+  <p><strong>SCHOOL:</strong> Lee County</p>
+  <p><strong>POSITION:</strong> Keeper</p>
+  <p><strong>YEAR:</strong> Senior</p>
+</div></li>
+
+<li><div class="other">
+  <h4>Lauryn Ansted</h4>
+  <p><strong>SCHOOL:</strong> Southern Lee</p>
+  <p><strong>POSITION:</strong> Forward</p>
+  <p><strong>YEAR:</strong> Sophomore</p>
+</div></li>
+
+<li><div class="other">
+  <h4>Sofia Flores</h4>
+  <p><strong>SCHOOL:</strong> Pinecrest</p>
+  <p><strong>POSITION:</strong> Forward</p>
+  <p><strong>YEAR:</strong> Senior</p>
+</div></li>
+
+
+  </ul>
+
+
+
+
+<<<<<<< HEAD
+</div>-->
+=======
+
+
+</div>
+>>>>>>> 4373fbaa3fa2a9e65397cfae628cfb33e5202a4b
+
+
+
+
+
+
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<<<<<<< HEAD
+<script src="http://fayobserver.com/app/shared_images/soccer/js/bootstrap.min.js"></script>
+<script src="http://fayobserver.com/app/shared_images/soccer/js/flip.js"></script>
+<script src="js/tabletop.js"></script>
+<script type="text/javascript" src="handlebars/handlebars.js"></script>
+<script src="js/getdata.js"></script>
+=======
+<script src="js/bootstrap.min.js"></script>
+<script src="js/flip.js"></script>
+>>>>>>> 4373fbaa3fa2a9e65397cfae628cfb33e5202a4b
+
+<script>
+
+$(document).ready(function(){
+
+  $(".flip-container").flip({
+  axis: 'y',
+<<<<<<< HEAD
+  trigger: 'click'
+=======
+  trigger: 'hover'
+>>>>>>> 4373fbaa3fa2a9e65397cfae628cfb33e5202a4b
+});
+
+});
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4373fbaa3fa2a9e65397cfae628cfb33e5202a4b
+</script>
+
+
+
+</body>
+</html>
