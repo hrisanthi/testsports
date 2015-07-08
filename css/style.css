@@ -5,8 +5,6 @@
 
 
 .entry, ul.img-list, ul.team2{
-
-ul.img-list, ul.team2{
   list-style-type: none;
   margin: 0;
   padding: 10px 10px 10px 10px;
@@ -14,13 +12,12 @@ ul.img-list, ul.team2{
 }
 
 .entry, ul.img-list li{
-ul.img-list li{
   display: inline-block;
-  height: 270px;
+  height: 300px;
   overflow: hidden;
   margin: 0 1em 1em 0;
   position: relative;
-  width: 150px;
+  width: 170px;
   background-color: white;
 }
 
@@ -73,8 +70,6 @@ p{
   -webkit-transition: all 0.9s ease-out;
    backface-visibility: hidden;
    transform: rotateY(0deg);
-   background-color: white;
-   border: 1px solid red;
   transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
    backface-visibility: hidden;

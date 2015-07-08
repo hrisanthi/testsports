@@ -16,3 +16,8 @@ function showInfo(data, tabletop) {
     $("#content").append(html);
   });
 }
+
+  $(".flip-container").flip({
+  axis: 'y',
+  trigger: 'click'
+});
