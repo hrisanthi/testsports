@@ -11,27 +11,29 @@
   text-align: left;
 }
 
-.entry, ul.img-list li{
+.entry, .entry2, ul.img-list li{
   display: inline-block;
-  height: 300px;
+  height: 600px;
   overflow: hidden;
   margin: 0 1em 1em 0;
   position: relative;
-  width: 170px;
+  width: 175px;
   background-color: white;
 }
 
+.entry2{
+    height: 175px;
+}
 
 ul.team2 li{
   display: inline-block;
   height: 120px;
-  overflow: hidden;
   margin: 0 1em 1em 0;
   position: relative;
   width: 150px;
 }
 
-h4{
+h2{
   font-weight: bold;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
@@ -40,6 +42,7 @@ h4{
 
 img{
   margin-left: -30px;
+  height: 300px;
 }
 
 p{
@@ -52,11 +55,12 @@ p{
 .flip-container {
   perspective: 200px;
   position: relative;
+  width: 160px;
 
 }
 
 
-.flip-container, .front, .back {
+/*.flip-container, .front, .back {
 	width: 150px;
 	height: 200px;
 }
@@ -66,14 +70,13 @@ p{
   width: 100px;
   transform-style: preserve-3d;
   position: absolute;
-  transition: all 0.9s ease-out;
-  -webkit-transition: all 0.9s ease-out;
+  transition-property: all;
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
+  transition-delay: initial;
    backface-visibility: hidden;
    transform: rotateY(0deg);
-  transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-   backface-visibility: hidden;
-   transform: rotateY(0deg);
+
 }
 
 .back{
@@ -82,9 +85,10 @@ p{
   width: 100px;
   transform-style: preserve-3d;
   position: absolute;
-  transition: all 0.9s ease-out;
-  -webkit-transition: all 0.9s ease-out;
+ transition-property: all;
+ transition-duration: .5s;
+ transition-timing-function: ease-out;
+ transition-delay: initial;
   transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
   backface-visibility: hidden;"
-}
+}*/

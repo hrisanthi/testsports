@@ -16,19 +16,36 @@
 <body>
     <div class="container">
     <div id="content"></div>
-    <script id="sports-template" type="text/x-handlebars-template">
+    <script class="sports-template" type="text/x-handlebars-template">
       <div class="entry">
           <ul class="img-list">
     <li><div class="flip-container">
-<div class="front">
-    <img src= {{Image}}></div>
-<div class="back">
+
+    <img src= {{Image}}>
+
         <h2>{{Name}}</h2>
         <p>SCHOOL: {{Place}}</p>
         <p>POSITION: {{Position}}</p>
         <p>YEAR: {{Year}}</p>
         <p>{{Comments}}</p>
-</div></div></li>
+</div></li>
+  </ul>
+  </div>
+    </script>
+<h2>Team 2</h2>
+    <div id="content2"></div>
+    <script class="sports-template2" type="text/x-handlebars-template">
+      <div class="entry2">
+          <ul class="team2">
+    <li>
+        <div class="other">
+        <h2>{{Name}}</h2>
+        <p>SCHOOL: {{Place}}</p>
+        <p>POSITION: {{Position}}</p>
+        <p>YEAR: {{Year}}</p>
+        <p>{{Comments}}</p>
+    </div>
+    </li>
   </ul>
   </div>
     </script>
